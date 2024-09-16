@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(34, 34, 34);
+}
+.left{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(0, 0, 66);
+    float: left;  
+}
+.left ul li{
+    list-style: none;
+    padding: 20px;
+}
+.left ul li a{
+    font-size: 20px;
+    text-decoration: none;                                                         
+    color: white;
+}
+.left ul li a:hover{
+    color: red;
+}
+.right {
+    float: right;
+    width: 80%;
+    height: 100vh;    
+}
+.right .info{
+    display: block;
+    border-bottom: 1px solid;
+    margin:15px ;  
+}
+.info h2{
+    font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.info p{
+    font-size: 20px;
+    padding-bottom:20px ;
+}
+
+

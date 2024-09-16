@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 245, 255);
+}
+#form{
+    width: 80%;
+    border: 1px solid white;
+    box-shadow:0px 10px 5px rgb(190, 190, 190);
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    line-height: 30px; 
+    background-color: white;
+}
+#form h1{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+}
+#form .form-control{
+    margin-left: 60px;
+    font-size: 25px;
+    background-color: white;
+}
+label{
+    background-color: white;
+}
+#name,#email,#age,#feedback,#submit{
+    width: 95%;
+    height: 25px;
+    background-color: white;
+}
+#service{
+    transform: scale(1.2);
+    padding-left: 5px;
+}
+textarea{
+    width: 95%;
+    height: 75px;
+    background-color: white;
+}
+
+#submit{
+    height: 30px;
+    color: white;
+    background-color: green;
+    border-color: white;
+}

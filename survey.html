@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_form.com</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <form id="form">
+        <h1>Feedback Survey Form</h1>
+        <div class="form-control">
+        <label for="name" id="label-name">
+         <strong>   Name:</strong>
+        </label><br>
+        <input type="text" id="name"><br>
+    </div><br>
+    <div class="form-control">
+        <label for="email" id="label-email">
+            <strong>Email:</strong>
+        </label><br>
+        <input type="email" id="email"><br>
+    </div><br>
+    <div class="form-control">
+        <label for="age" id="label-age">
+            <strong>Age:</strong>
+        </label><br>
+        <input type="number" id="age"><br>
+    </div><br>
+    <div class="form-control">
+        <label for="feedback" id="label-feedback">
+            <strong>Type of Feedback</strong>
+        </label><br>
+        <select id="feedback">
+            <option value="positive">Positive</option><br>
+            <option value="negative">Negative</option><br>
+            <option value="suggestion">Suggestion</option><br>
+        </select>
+    </div><br>
+    <div class="form-control" id="check">
+        <label for="service" id="label-service">
+            <strong>Services Used</strong>
+        </label><br>
+        
+        <input type="checkbox"  name="service" id="service" value="service1"> Service 1<br>
+        <input type="checkbox" name="service" id="service" value="service2"> Service 2<br>
+        <input type="checkbox" name="service" id="service" value="service3"> Service 3<br>
+        <input type="checkbox" name="service" id="service" value="service4"> Service 4<br>
+    </div><br>
+    <div class="form-control">
+        <label for="comment" id="label-comment">
+            <strong>Additional Comments</strong>
+        </label><br>
+        <textarea ></textarea><br>
+    </div><br>
+    <div class="form-control">
+        <input type="submit" value="Submit feedback" name="submit feedback" id="submit">
+    </div>
+    </form>
+</body>
+</html>

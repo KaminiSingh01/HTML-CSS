@@ -1,0 +1,62 @@
+.portfolio .box1{
+    border: 1px solid rgb(212, 212, 212);
+    background-color:rgb(212, 212, 212);
+    text-align: center;
+    margin: 15px;
+    height: 400px;
+}
+.portfolio .box1 img{
+    border-radius: 200%;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+h2{
+    font-size: 35px;
+    margin-left: 55px;
+}
+h3{
+    font-size: 30px;
+    
+    margin-left: 55px;
+}
+.box2{
+    border: 1px solid rgb(212, 212, 212);
+    background-color:rgb(212, 212, 212);
+    margin: 30px;
+}
+.box3{
+    border: 1px solid rgb(212, 212, 212);
+    background-color:rgb(212, 212, 212);
+    margin: 30px;
+    height: 450px
+}
+.box3 .b1,.b3{
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid rgb(189, 189, 189);
+    float: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+.box3 .b2,.b4{
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+    border: 3px solid rgb(189, 189, 189);
+    float: right;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.box4{
+    border: 1px solid rgb(199, 199, 199);
+    background-color:rgb(199, 199, 199);
+    margin: 30px;
+    font-size: 40px;
+}
